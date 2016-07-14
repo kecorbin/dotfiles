@@ -1,7 +1,9 @@
 "*":
+  "autocomplete-jedi":
+    includeCompletionsFromAllBuffers: true
   core:
     disabledPackages: [
-      "background-tips"
+      "activate-power-mode"
       "exception-reporting"
       "metrics"
     ]
@@ -16,18 +18,13 @@
       "vendor"
     ]
     themes: [
-      "unity-ui"
-      "glacier-syntax"
+      "atom-dark-ui"
+      "monokai"
     ]
   editor:
-    fontFamily: "Menlo"
+    fontSize: 17
     invisibles: {}
     showIndentGuide: true
-    softWrapAtPreferredLineLength: true
-  "go-plus":
-    goPath: "/Users/holman/Code/go"
-  "release-notes":
-    viewedVersion: "0.89.0"
   "spell-check":
     grammars: [
       "text.plain"
@@ -35,5 +32,17 @@
       "text.git-commit"
       "text.html.basic"
     ]
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  pandoc: {}
+  "rst-preview": {}
+  "tabs-to-spaces":
+    onSave: "untabify"
+  "tree-view":
+    hideIgnoredNames: true
   welcome:
     showOnStartup: false
