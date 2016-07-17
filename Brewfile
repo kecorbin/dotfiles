@@ -10,6 +10,7 @@ brew 'openssl'
 brew 'node'
 brew 'readline'
 brew 'postgresql'
+brew 'terraform'
 
 # Ruby
 brew 'ruby-build'
