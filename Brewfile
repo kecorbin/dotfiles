@@ -23,7 +23,7 @@ brew 'wget'
 # GUI Applications
 cask 'adobe-reader'
 cask 'atom'
-cask 'filezilla'
+cask 'cyberduck'
 cask 'firefox'
 cask 'github-desktop'
 cask 'gitter'
