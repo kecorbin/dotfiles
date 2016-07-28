@@ -46,3 +46,6 @@
     hideIgnoredNames: true
   welcome:
     showOnStartup: false
+".source.makefile":
+  "tabs-to-spaces":
+    "onSave": "tabify"
