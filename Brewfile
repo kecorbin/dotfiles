@@ -13,7 +13,6 @@ brew 'postgresql'
 brew 'pyenv'
 brew 'python3'
 brew 'terraform'
-brew 'qemu'
 
 # Ruby
 brew 'ruby-build'
@@ -22,6 +21,10 @@ brew 'rbenv'
 # Network utils
 brew 'nmap'
 brew 'wget'
+
+# Docker stuff
+brew 'qemu'
+brew 'docker-clean'
 
 # GUI Applications
 cask 'adobe-reader'
