@@ -13,6 +13,7 @@ brew 'postgresql'
 brew 'pyenv'
 brew 'python3'
 brew 'terraform'
+brew 'qemu'
 
 # Ruby
 brew 'ruby-build'
