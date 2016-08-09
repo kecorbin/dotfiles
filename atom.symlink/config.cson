@@ -25,13 +25,6 @@
     fontSize: 17
     invisibles: {}
     showIndentGuide: true
-  "spell-check":
-    grammars: [
-      "text.plain"
-      "source.gfm"
-      "text.git-commit"
-      "text.html.basic"
-    ]
   minimap:
     plugins:
       "highlight-selected": true
@@ -40,12 +33,19 @@
       pigmentsDecorationsZIndex: 0
   pandoc: {}
   "rst-preview": {}
+  "spell-check":
+    grammars: [
+      "text.plain"
+      "source.gfm"
+      "text.git-commit"
+      "text.html.basic"
+    ]
   "tabs-to-spaces":
     onSave: "untabify"
   "tree-view":
     hideIgnoredNames: true
   welcome:
     showOnStartup: false
-".source.makefile":
+".makefile.source":
   "tabs-to-spaces":
-    "onSave": "tabify"
+    onSave: "tabify"
