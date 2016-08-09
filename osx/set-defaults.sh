@@ -38,3 +38,6 @@ defaults write com.apple.menuextra.battery ShowTime YES
 # Screensaver requires password; no delay before asking
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
+
+# Set up finder how I like
+defaults write com.apple.finder ShowPathbar -int 1
