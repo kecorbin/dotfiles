@@ -2,6 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 
+brew 'awscli'
 brew 'coreutils'
 brew 'go'
 brew 'grc'
