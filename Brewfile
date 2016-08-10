@@ -29,6 +29,10 @@ brew 'wget'
 brew 'qemu'
 brew 'docker-clean'
 
+# Other VCS tools (Used with go)
+brew 'bazaar'
+brew 'hg'
+
 # GUI Applications
 cask 'adobe-reader'
 cask 'atom'
