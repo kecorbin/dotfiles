@@ -4,7 +4,6 @@ tap 'homebrew/bundle'
 
 brew 'awscli'
 brew 'coreutils'
-brew 'go'
 brew 'grc'
 brew 'htop'
 brew 'imagemagick'
@@ -16,6 +15,10 @@ brew 'postgresql'
 brew 'pyenv'
 brew 'python3'
 brew 'terraform'
+
+# Golang
+brew 'go'
+brew 'glide'
 
 # Ruby
 brew 'ruby-build'
