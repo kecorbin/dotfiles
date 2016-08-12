@@ -38,6 +38,7 @@ brew 'hg'
 
 # GUI Applications
 cask 'adobe-reader'
+cask 'alfred'
 cask 'atom'
 cask 'cyberduck'
 cask 'firefox'
