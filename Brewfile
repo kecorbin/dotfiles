@@ -4,6 +4,7 @@ tap 'homebrew/bundle'
 
 brew 'awscli'
 brew 'coreutils'
+brew 'graphviz'
 brew 'grc'
 brew 'htop'
 brew 'imagemagick'
