@@ -60,3 +60,6 @@ antigen theme robbyrussell
 
 # Tell antigen that you're done.
 antigen apply
+
+# To fix an issue with the arrow in the promt
+ret_status="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
