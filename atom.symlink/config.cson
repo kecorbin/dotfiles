@@ -7,8 +7,9 @@
       "exception-reporting"
       "metrics"
     ]
+    excludeVcsIgnoredPaths: false
     followSymlinks: false
-    hideGitIgnoredFiles: true
+    hideGitIgnoredFiles: false
     ignoredNames: [
       ".bundle"
       ".git"
@@ -17,14 +18,16 @@
       "tmp"
       "vendor"
     ]
+    telemetryConsent: "limited"
     themes: [
       "atom-dark-ui"
       "monokai"
     ]
   editor:
-    fontSize: 17
     invisibles: {}
     showIndentGuide: true
+  "go-plus":
+    currentPanelHeight: "2.125vh"
   minimap:
     plugins:
       "highlight-selected": true
