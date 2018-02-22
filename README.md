@@ -1,4 +1,4 @@
-# Corbin's dotfiles
+# Corbin does dotfiles
 
 My fork of [Stacks does dotfiles](https://github.com/jonstacks/dotfiles) which is
 a fork of [holman does dotfiles](https://github.com/holman/dotfiles) so pick your
