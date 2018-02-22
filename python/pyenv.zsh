@@ -6,5 +6,5 @@ fi
 # for pyenv
 PYENV_ROOT=$HOME/.pyenv
 PATH=$PYENV_ROOT/bin:${PATH}
-
+export PROJECT_HOME=~/Projects
 export PATH
