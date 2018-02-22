@@ -28,6 +28,8 @@
     showIndentGuide: true
   "go-plus":
     currentPanelHeight: "2.125vh"
+  "markdown-preview":
+    useGitHubStyle: true
   minimap:
     plugins:
       "highlight-selected": true
